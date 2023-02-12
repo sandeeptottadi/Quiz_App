@@ -6,7 +6,7 @@ body {
 img {
     border-radius: 50%;
     margin: 10px;
-    transition: 0.5s all ease-out;
+    transition: 0.5s all;
 }
 
 header {
@@ -26,7 +26,7 @@ ul {
 }
 
 img:hover {
-    transform: rotate(deg(180));
+    transform: rotateX(deg(180));
     }
 
 li {
